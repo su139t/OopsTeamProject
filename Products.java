@@ -24,6 +24,7 @@ public class Products {
     this.description = description;
     this.price = price;
     this.id = id;
+    this.stock_qty = stock_qty;
   }
 
   public static void main(String[] args) {

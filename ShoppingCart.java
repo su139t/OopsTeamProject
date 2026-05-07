@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 
 public class ShoppingCart {
+    String title;
+    String description;
+    double price;
+    int id;
+    int stock_qty;
+    
     ArrayList<Products> CartProduct = new ArrayList<>();
 
     void addToCart(int id) {
