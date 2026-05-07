@@ -34,12 +34,13 @@ public class ShoppingCart {
         System.out.println("remove successfully...");
     }
 
-    void subTotal() {
+    double subTotal() {
         double amount = 0;
         for (int i = 0; i < CartProduct.size(); i++) {
             amount += CartProduct.get(i).price;
         }
-        System.out.println("total cart amount : " + amount);
+        // System.out.println("total cart amount : " + amount);
+        return amount;
     }
 
     public static void main(String[] args) {
